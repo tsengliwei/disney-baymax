@@ -1,0 +1,1 @@
+Developed a personal health care iPhone app for Disney employees to access relevant health related information. We conducted a product lifecycle analysis, created a simple prototype and designed a UI for the app to be presented to the CTO of the Walt Disney Studios.

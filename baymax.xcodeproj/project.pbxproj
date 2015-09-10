@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C408C8F01B8C1CD300AAD3A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C408C8EF1B8C1CD300AAD3A3 /* AppDelegate.swift */; };
+		C408C8F21B8C1CD300AAD3A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C408C8F11B8C1CD300AAD3A3 /* ViewController.swift */; };
+		C408C8F51B8C1CD300AAD3A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C408C8F31B8C1CD300AAD3A3 /* Main.storyboard */; };
+		C408C8F71B8C1CD300AAD3A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C408C8F61B8C1CD300AAD3A3 /* Images.xcassets */; };
+		C408C8FA1B8C1CD300AAD3A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C408C8F81B8C1CD300AAD3A3 /* LaunchScreen.xib */; };
+		C408C9061B8C1CD300AAD3A3 /* baymaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C408C9051B8C1CD300AAD3A3 /* baymaxTests.swift */; };
+		C45456201B93FF2200981ED5 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C454561F1B93FF2200981ED5 /* SWRevealViewController.m */; };
+		C45456241B94034A00981ED5 /* BackTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45456231B94034A00981ED5 /* BackTableVC.swift */; };
+		C45456281B94278E00981ED5 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45456271B94278E00981ED5 /* MenuTableViewController.swift */; };
+		C45B55131B957E70004EE801 /* DashboardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B55121B957E70004EE801 /* DashboardTableViewController.swift */; };
+		C45B55151B958B05004EE801 /* FoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B55141B958B05004EE801 /* FoodTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C408C9001B8C1CD300AAD3A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C408C8E21B8C1CD200AAD3A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C408C8E91B8C1CD300AAD3A3;
+			remoteInfo = baymax;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C408C8EA1B8C1CD300AAD3A3 /* baymax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baymax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C408C8EE1B8C1CD300AAD3A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C408C8EF1B8C1CD300AAD3A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C408C8F11B8C1CD300AAD3A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C408C8F41B8C1CD300AAD3A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C408C8F61B8C1CD300AAD3A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C408C8F91B8C1CD300AAD3A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C408C8FF1B8C1CD300AAD3A3 /* baymaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = baymaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C408C9041B8C1CD300AAD3A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C408C9051B8C1CD300AAD3A3 /* baymaxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baymaxTests.swift; sourceTree = "<group>"; };
+		C454561D1B93FF2200981ED5 /* baymax-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "baymax-Bridging-Header.h"; sourceTree = "<group>"; };
+		C454561E1B93FF2200981ED5 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		C454561F1B93FF2200981ED5 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		C45456231B94034A00981ED5 /* BackTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableVC.swift; sourceTree = "<group>"; };
+		C45456271B94278E00981ED5 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		C45B55121B957E70004EE801 /* DashboardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardTableViewController.swift; sourceTree = "<group>"; };
+		C45B55141B958B05004EE801 /* FoodTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C408C8E71B8C1CD300AAD3A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C408C8FC1B8C1CD300AAD3A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C408C8E11B8C1CD200AAD3A3 = {
+			isa = PBXGroup;
+			children = (
+				C408C8EC1B8C1CD300AAD3A3 /* baymax */,
+				C408C9021B8C1CD300AAD3A3 /* baymaxTests */,
+				C408C8EB1B8C1CD300AAD3A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C408C8EB1B8C1CD300AAD3A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C408C8EA1B8C1CD300AAD3A3 /* baymax.app */,
+				C408C8FF1B8C1CD300AAD3A3 /* baymaxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C408C8EC1B8C1CD300AAD3A3 /* baymax */ = {
+			isa = PBXGroup;
+			children = (
+				C408C8EF1B8C1CD300AAD3A3 /* AppDelegate.swift */,
+				C408C8F11B8C1CD300AAD3A3 /* ViewController.swift */,
+				C45456271B94278E00981ED5 /* MenuTableViewController.swift */,
+				C45456231B94034A00981ED5 /* BackTableVC.swift */,
+				C45B55121B957E70004EE801 /* DashboardTableViewController.swift */,
+				C45B55141B958B05004EE801 /* FoodTableViewController.swift */,
+				C408C8F31B8C1CD300AAD3A3 /* Main.storyboard */,
+				C408C8F61B8C1CD300AAD3A3 /* Images.xcassets */,
+				C408C8F81B8C1CD300AAD3A3 /* LaunchScreen.xib */,
+				C408C8ED1B8C1CD300AAD3A3 /* Supporting Files */,
+			);
+			path = baymax;
+			sourceTree = "<group>";
+		};
+		C408C8ED1B8C1CD300AAD3A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C454561E1B93FF2200981ED5 /* SWRevealViewController.h */,
+				C454561F1B93FF2200981ED5 /* SWRevealViewController.m */,
+				C408C8EE1B8C1CD300AAD3A3 /* Info.plist */,
+				C454561D1B93FF2200981ED5 /* baymax-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C408C9021B8C1CD300AAD3A3 /* baymaxTests */ = {
+			isa = PBXGroup;
+			children = (
+				C408C9051B8C1CD300AAD3A3 /* baymaxTests.swift */,
+				C408C9031B8C1CD300AAD3A3 /* Supporting Files */,
+			);
+			path = baymaxTests;
+			sourceTree = "<group>";
+		};
+		C408C9031B8C1CD300AAD3A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C408C9041B8C1CD300AAD3A3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C408C8E91B8C1CD300AAD3A3 /* baymax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C408C9091B8C1CD300AAD3A3 /* Build configuration list for PBXNativeTarget "baymax" */;
+			buildPhases = (
+				C408C8E61B8C1CD300AAD3A3 /* Sources */,
+				C408C8E71B8C1CD300AAD3A3 /* Frameworks */,
+				C408C8E81B8C1CD300AAD3A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = baymax;
+			productName = baymax;
+			productReference = C408C8EA1B8C1CD300AAD3A3 /* baymax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C408C8FE1B8C1CD300AAD3A3 /* baymaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C408C90C1B8C1CD300AAD3A3 /* Build configuration list for PBXNativeTarget "baymaxTests" */;
+			buildPhases = (
+				C408C8FB1B8C1CD300AAD3A3 /* Sources */,
+				C408C8FC1B8C1CD300AAD3A3 /* Frameworks */,
+				C408C8FD1B8C1CD300AAD3A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C408C9011B8C1CD300AAD3A3 /* PBXTargetDependency */,
+			);
+			name = baymaxTests;
+			productName = baymaxTests;
+			productReference = C408C8FF1B8C1CD300AAD3A3 /* baymaxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C408C8E21B8C1CD200AAD3A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = liwei;
+				TargetAttributes = {
+					C408C8E91B8C1CD300AAD3A3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C408C8FE1B8C1CD300AAD3A3 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C408C8E91B8C1CD300AAD3A3;
+					};
+				};
+			};
+			buildConfigurationList = C408C8E51B8C1CD300AAD3A3 /* Build configuration list for PBXProject "baymax" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C408C8E11B8C1CD200AAD3A3;
+			productRefGroup = C408C8EB1B8C1CD300AAD3A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C408C8E91B8C1CD300AAD3A3 /* baymax */,
+				C408C8FE1B8C1CD300AAD3A3 /* baymaxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C408C8E81B8C1CD300AAD3A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C408C8F51B8C1CD300AAD3A3 /* Main.storyboard in Resources */,
+				C408C8FA1B8C1CD300AAD3A3 /* LaunchScreen.xib in Resources */,
+				C408C8F71B8C1CD300AAD3A3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C408C8FD1B8C1CD300AAD3A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C408C8E61B8C1CD300AAD3A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C408C8F21B8C1CD300AAD3A3 /* ViewController.swift in Sources */,
+				C45456281B94278E00981ED5 /* MenuTableViewController.swift in Sources */,
+				C45456241B94034A00981ED5 /* BackTableVC.swift in Sources */,
+				C408C8F01B8C1CD300AAD3A3 /* AppDelegate.swift in Sources */,
+				C45B55131B957E70004EE801 /* DashboardTableViewController.swift in Sources */,
+				C45456201B93FF2200981ED5 /* SWRevealViewController.m in Sources */,
+				C45B55151B958B05004EE801 /* FoodTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C408C8FB1B8C1CD300AAD3A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C408C9061B8C1CD300AAD3A3 /* baymaxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C408C9011B8C1CD300AAD3A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C408C8E91B8C1CD300AAD3A3 /* baymax */;
+			targetProxy = C408C9001B8C1CD300AAD3A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C408C8F31B8C1CD300AAD3A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C408C8F41B8C1CD300AAD3A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C408C8F81B8C1CD300AAD3A3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C408C8F91B8C1CD300AAD3A3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C408C9071B8C1CD300AAD3A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C408C9081B8C1CD300AAD3A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C408C90A1B8C1CD300AAD3A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = baymax/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "baymax/baymax-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C408C90B1B8C1CD300AAD3A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = baymax/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "baymax/baymax-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		C408C90D1B8C1CD300AAD3A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = baymaxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/baymax.app/baymax";
+			};
+			name = Debug;
+		};
+		C408C90E1B8C1CD300AAD3A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = baymaxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/baymax.app/baymax";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C408C8E51B8C1CD300AAD3A3 /* Build configuration list for PBXProject "baymax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C408C9071B8C1CD300AAD3A3 /* Debug */,
+				C408C9081B8C1CD300AAD3A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C408C9091B8C1CD300AAD3A3 /* Build configuration list for PBXNativeTarget "baymax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C408C90A1B8C1CD300AAD3A3 /* Debug */,
+				C408C90B1B8C1CD300AAD3A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C408C90C1B8C1CD300AAD3A3 /* Build configuration list for PBXNativeTarget "baymaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C408C90D1B8C1CD300AAD3A3 /* Debug */,
+				C408C90E1B8C1CD300AAD3A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C408C8E21B8C1CD200AAD3A3 /* Project object */;
+}
